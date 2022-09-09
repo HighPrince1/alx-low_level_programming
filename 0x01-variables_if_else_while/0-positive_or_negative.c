@@ -4,8 +4,6 @@
 
 #include <time.h>
 
-
-
 /**
  *
  *  * main - determine if number is positive or negative
