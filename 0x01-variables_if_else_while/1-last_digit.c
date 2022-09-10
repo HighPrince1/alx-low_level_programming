@@ -1,27 +1,31 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - print last digit in random number
+ * main - entry point
  *
- * Description: print last digit in random number
+ * Return: always return 0
  *
- * Return: Always 0 (Success)
+ * function main - find the last digit of n
  */
 int main(void)
 {
-	int n, last
-
+	int n;
+	int lastn;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last = n % 10;
-	if (last > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, last);
-	else if (last == 0)
-		printf("Last digit of %d is %d and is 0\n", n, last);
-	else if (last < 6 && last != 0)
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
+	lastn = n % 10;
+
+	if (lastn > 5)
+	{
+		printf("Last digit of %d is % and is greater than 5\n", n, lastn);
+	} else if (lastn == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, lastn);
+	} else
+	{
+		printf("Last digit %d is %d and is less than 6 and not 0\n", n, lastn);
+	}
 	return (0);
-}
