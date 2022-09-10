@@ -1,23 +1,32 @@
 #include <stdio.h>
+
 /**
- * main - entry point
+ * main - print the letters of the alphabet
  *
- * function main - prints alternating alphabets
+ * Description: print the letters of the alphabet
  *
- * Return: 0
+ * Return: Always 0 (Succes)
  */
+
 int main(void)
 {
-	char ch;
+	int i, j;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	i = 97;
+	j = 65;
+
+	while (i < 123)
 	{
-		putchar(ch);
+		putchar(i);
+		i++;
 	}
-	for (ch = 'A' ; ch <= 'z' ; ch++)
+
+	while (j < 91)
 	{
-		putchar(ch);
+		putchar(j);
+		j++;
 	}
-	putchar('n\');
+	putchar(10);
+
 	return (0);
 }
