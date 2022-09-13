@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main
+ * main - prints "_putchar" followed by a new line.
  *
  * Description: prints _putchar
  *
  * Return: 0 (Success)
  */
 
-int main(voiid)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -19,6 +19,5 @@ int main(voiid)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
