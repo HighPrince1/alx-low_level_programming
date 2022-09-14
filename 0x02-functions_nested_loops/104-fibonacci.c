@@ -4,8 +4,9 @@
  * main - main block
  * Description: find and print the first 100 fib numbers starting with 1 and 2.
  * numbers should be comma and space seperated.
- * Retun: 0
+ * Return: Always 0.
  */
+
 int main(void)
 {
 	unsigned long int fr1 = 0, bk1 = 1, fr2 = 0, bk2 = 2;
