@@ -23,7 +23,7 @@ int main(void)
 		c = +b;
 		if (counter < 50)
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	printf("\n");
