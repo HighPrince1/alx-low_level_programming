@@ -6,7 +6,7 @@
  * This is an attribute of a systme that indicates whether integers are
  * represented with the most significant byte stored at the lowest address
  * (big endian) or at the highest address (littles endian).
- **/
+ */
 
 int get_endianness(void)
 {
